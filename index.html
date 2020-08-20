@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <title>DOM Practice</title>
+</head>
+<body>
+    <h1>DOM Exercise 2</h1>
+    <div id="bounding-box">
+        <form id="formBox">
+            <div id="text-box">
+                <label for="textEnter" class="input-titles">Name</label>
+                <input type="text" id="textEnter" name="textEnter">
+            </div>
+            <div id="radio-box">
+                <label for="listType" class="input-titles">Type</label>
+                <input type="radio" id="forFruit" name="listType" value="fruit">
+                <label for="forFruit" class="radio-titles">Fruit</label>
+                <input type="radio" id="forVeggie" name="listType" value="veggie">
+                <label for="forVeggie" class="radio-titles">Veggie</label>
+            </div>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <div id="list-box">
+        <div class="lists">
+            <h2 class="list-headers">Fruits</h2>
+            <ol id="list-fruits"></ol>
+        </div>
+        
+        <div class="lists">
+            <h2 class="list-headers">Vegetables</h2>
+            <ol id="list-vegetables"></ol>
+        </div>
+    </div>
+
+
+</body>
+</html>

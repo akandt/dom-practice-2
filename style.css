@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body {
+    background-color: #fcfcfc;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#bounding-box {
+    width: 320px;
+    padding: 40px 24px 24px 24px;
+    background-color: white;
+    border: 4px solid lightcyan;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px #aaa;
+    margin: auto;
+}
+
+.input-titles {
+    font-size: 14px;
+    margin-right: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.radio-titles {
+    font-size: 13px;
+    margin: 0px 16px 0px 4px;
+}
+
+#textEnter {
+    width: 200px;
+}
+
+#text-box {
+    margin-bottom: 24px;
+}
+
+#radio-box {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+button {
+    background-color: #333;
+    border-style: none;
+    color: white;
+    padding: 8px 24px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: #666;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#list-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.lists {
+    margin: 0px 40px;
+}
+
+.list-headers {
+    font-size: 16px;
+}
+
+ol {
+    font-size: 14px;
+    margin-bottom: 24px;
+    padding: 0px 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
